@@ -1,0 +1,15 @@
+__author__ = 'Smoo'
+
+
+score = int(input("What is your score?: "))
+if score < 0:
+    print("Invalid score")
+elif score < 50:
+    print("Bad")
+elif score > 100:
+    print("Invalid score")
+elif score > 90:
+    print("Execellent")
+elif score > 50:
+    print("Passable")
+
